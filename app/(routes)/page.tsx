@@ -8,7 +8,7 @@ import Container from '@/components/ui/container';
 
 const HomePage = async (): Promise<JSX.Element> => {
 	const products = await getProducts({ isFeatured: true });
-	const billboard = await getBillboard('233694ea-ecfe-4214-ab74-e914b4736bea');
+	const billboard = await getBillboard('6d53ef91-f4ad-4d2f-9d80-ead00ab1d308');
 
 	return (
 		<Container>
